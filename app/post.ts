@@ -47,7 +47,8 @@ export type PostMarkdownAttributes = {
   spoiler?: string;
 };
 
-const postsPath = path.join(__dirname, "../posts");
+// const postsPath = path.join(__dirname, "../posts");
+const postsPath = path.join(__dirname, "../../..", "posts");
 // const postsPath = path.join(__dirname, "./routes/posts");
 
 function isValidPostAttributes(
