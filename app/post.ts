@@ -48,7 +48,10 @@ export type PostMarkdownAttributes = {
 };
 
 // const postsPath = path.join(__dirname, "../posts");
-const postsPath = path.join(__dirname, "../../..", "posts");
+const postsPath =
+  process.env.NODE_ENV === "development"
+    ? path.join(__dirname, "../../../posts")
+    : path.join(__dirname, "../../..", "posts");
 // const postsPath = path.join(__dirname, "./routes/posts");
 
 function isValidPostAttributes(
@@ -78,7 +81,9 @@ export async function getPost(slug: string) {
     const x = mdx(filepath);
     console.log(x);
     file = await fs.readFile(filepath);
-  } catch (e) {}
+  } catch (e) {
+    console.log(e);
+  }
   if (!file) {
     try {
       filepath = path.join(postsPath, slug + "/index" + ".md");
