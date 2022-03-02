@@ -10,4 +10,9 @@ module.exports = {
   // serverBuildPath: "netlify/functions/server/index.js",
   // publicPath: "/build/",
   // devServerPort: 8002
+  routes(defineRoutes) {
+    return defineRoutes((route) => {
+      route("/*", "routes/nested.tsx");
+    });
+  },
 };
