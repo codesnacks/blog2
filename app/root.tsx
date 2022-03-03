@@ -141,7 +141,6 @@ export default function App() {
                           placeholder="youremail@example.com"
                           className="flex-1 mt-4 appearance-none border border-gray-400 rounded shadow-md p-3 text-gray-600 mr-2 focus:outline-none"
                           id="EMAIL"
-                          autoFocus
                           value={fields.EMAIL}
                           onChange={handleFieldChange}
                         />
