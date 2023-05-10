@@ -163,7 +163,7 @@ export default function App() {
             <div className="flex w-full items-center font-sans px-4 py-12">
               <img
                 className="w-10 h-10 rounded-full mr-4"
-                src="https://media-exp1.licdn.com/dms/image/C5103AQEThWJHL-PBVg/profile-displayphoto-shrink_400_400/0/1517060869209?e=1649894400&v=beta&t=na33MxSqGTtFMeNt4ZzaC0qje0VZYyp3Tq2sMu1ekuc"
+                src="https://media.licdn.com/dms/image/D5635AQEyKBjsHXGDkA/profile-framedphoto-shrink_400_400/0/1683228677056?e=1684324800&v=beta&t=19FhnrO5LAybxr4yFRnoIeqNeCqeziHqExYSA-RiAuQ"
                 alt="Benjamin Mock"
               />
               <div className="flex-1 px-2">
