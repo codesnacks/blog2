@@ -171,7 +171,7 @@ export default function App() {
                   Benjamin Mock
                 </p>
                 <p className="text-gray-600 text-xs md:text-base">
-                  Senior Developer at Shopify
+                  Senior Developer currently open for work. ex-Shopify / ex-ebay
                 </p>
                 {/* <a className="text-green-500 no-underline hover:underline" href="https://www.tailwindtoolbox.com">TailwindToolbox.com</a> */}
               </div>
